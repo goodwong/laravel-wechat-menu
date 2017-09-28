@@ -1,0 +1,18 @@
+{
+    "name": "goodwong/laravel-wechat-menu",
+    "type": "library",
+    "authors": [
+        {
+            "name": "william",
+            "email": "goodwong@foxmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Goodwong\\LaravelWechatMenu\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "license": "MIT"
+}
