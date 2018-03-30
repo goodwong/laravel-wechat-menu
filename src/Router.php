@@ -1,6 +1,6 @@
 <?php
 
-namespace Goodwong\LaravelWechatMenu;
+namespace Goodwong\WechatMenu;
 
 use Illuminate\Support\Facades\Route;
 
@@ -13,7 +13,7 @@ class Router
      */
     public static function menu()
     {
-        Route::namespace('Goodwong\LaravelWechatMenu\Http\Controllers')->group(function () {
+        Route::namespace('Goodwong\WechatMenu\Http\Controllers')->group(function () {
             Route::resource('wechat-menus', 'WechatMenuController');
         });
     }
